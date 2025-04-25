@@ -1,0 +1,3 @@
+# NOTE, seperate epoch5 and final weight files before running. Please :)
+
+python3 test_ensemble.py --models_dir model_checkpoints/ --data_dir dataset/ --batch_size 128

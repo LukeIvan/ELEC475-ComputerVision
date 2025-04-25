@@ -1,0 +1,1 @@
+python3 train.py --model ResNet18 --batch_size 64 --learning_rate 0.0009374514213227048 --weight_decay 0.0005734805023887988 --patience 5 --num_epochs 30

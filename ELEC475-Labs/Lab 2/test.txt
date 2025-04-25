@@ -1,0 +1,1 @@
+python3 test.py --data_path "$(pwd)/dataset/oxford-iiit-pet-noses/images-original/images" --test_txt "$(pwd)/dataset/oxford-iiit-pet-noses/test_noses.txt"

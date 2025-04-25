@@ -1,0 +1,29 @@
+python train.py \
+        --data_path "$(pwd)/dataset/oxford-iiit-pet-noses/images-original/images" \
+        --train_txt "$(pwd)/dataset/oxford-iiit-pet-noses/train_noses.txt" \
+        --val_txt "$(pwd)/dataset/oxford-iiit-pet-noses/test_noses.txt" \
+        --batch_size 16 \
+        --epochs 30 \
+        --weight_decay=1.403262068588847e-05 \
+        --learning_rate=0.0003626192956285775 \        
+        --patience 5 \
+        --color_jitter \
+        --gaussian_blur \
+        --random_erase
+
+python test.py \
+              --data_path "$(pwd)/dataset/oxford-iiit-pet-noses/images-original/images" \
+              --train_txt "$(pwd)/dataset/oxford-iiit-pet-noses/train_noses.txt" \
+              --val_txt "$(pwd)/dataset/oxford-iiit-pet-noses/test_noses.txt" \
+              --batch_size 16 \
+              --epochs 30 \
+              --weight_decay=1.403262068588847e-05 \
+              --learning_rate=0.0003626192956285775 \
+              --patience=10 \
+              --color_jitter \
+              --gaussian_blur
+
+[I 2024-10-31 20:21:51,874] Trial 49 finished with value: 1351728754999.7102 and parameters: {'batch_size': 16, 'epochs': 50, 'learning_rate': 0.07405679464545313, 'weight_decay': 0.00011846328220876458}. Best is trial 31 with value: 569.9398582458496.                                        
+2024-10-31 20:21:51,874 - INFO - Best hyperparameters:                                                                                                                                                                                                                                              
+2024-10-31 20:21:51,874 - INFO - {'batch_size': 16, 'epochs': 30, 'learning_rate': 0.0003626192956285775, 'weight_decay': 1.403262068588847e-05}                                                                                                                                                    
+2024-10-31 20:21:51,874 - INFO - Best validation loss: 569.939858    

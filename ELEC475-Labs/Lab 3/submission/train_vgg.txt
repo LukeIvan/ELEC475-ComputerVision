@@ -1,0 +1,1 @@
+python3 train.py --model VGG16 --batch_size 64 --learning_rate 0.0017781141469922837 --weight_decay 0.0009879354283853455 --patience 5 --num_epochs 30

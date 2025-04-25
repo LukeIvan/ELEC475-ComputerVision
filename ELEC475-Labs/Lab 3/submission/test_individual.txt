@@ -1,0 +1,1 @@
+python test.py --models_dir model_checkpoints --data_dir dataset/ --batch_size 128

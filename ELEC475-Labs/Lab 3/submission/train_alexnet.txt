@@ -1,0 +1,1 @@
+python3 train.py --model AlexNet --batch_size 128 --learning_rate 0.0010954191188079832 --weight_decay 0.00016678109461148183 --patience 5 --num_epochs 30
