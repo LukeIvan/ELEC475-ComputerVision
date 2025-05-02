@@ -36,7 +36,7 @@ Custom-labeled pet nose dataset. Courtesy of Prof. Greenspan
 
 ---
 
-### 3. Ensemble Image Classification
+### 3. Ensemble Image Classification - Lab 3
 
 **Description:**  
 Applies ensemble learning to the CIFAR-100 dataset using three pre-trained models (VGG-16, AlexNet, ResNet-18) with ensemble methods to improve classification accuracy.
